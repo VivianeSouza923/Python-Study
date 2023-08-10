@@ -10,13 +10,15 @@ valor (objeto) para o interpretador .
         BInário - bytes, bytearray, memoryview.
 '''
 
+# tipo inteiro
 print(1 + 10)
 print(11 + 10 + 1000)
-
+# tipo flutuante
 print(1.5 + 1 + 0.5)
-
+# tipo booleano
 print(True)
 
 print(False)
-
+# tipo string
 print("Python")
+
