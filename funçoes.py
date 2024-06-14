@@ -36,6 +36,15 @@ print(lista([1, 2, 3]))
 
 
 def nome_maior(lista_nomes):
-    for elemento in lista_nomes.copy():
-        len
+    maior_palavra = ''
+    tamanho_maximo = 0
+    for elemento in lista_nomes:
+        if len(elemento) > tamanho_maximo:
+            tamanho_maximo = len(elemento)
+            maior_palavra = elemento
+    
+    return maior_palavra
+
+
+print(nome_maior(['Vivi', 'Viviane', 'Alesi', 'Ana']))
     
