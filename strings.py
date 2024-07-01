@@ -23,5 +23,14 @@
 #print(frase.capitalize()) # bota em maiúsculo a primeira letra
 #print(frase[:-1])
 #print(frase[::-1]) # o que diferencia é o passo aqui
-frase = 'Python'
-print()
+# frase = 'Python is good'
+# frase_atual = frase.replace('Python', 'Java')
+# print(frase_atual)
+
+frase = 'Deus é bom, maravilhoso e Sua bondade dura para todo o sempre'
+for i in range(len(frase)):
+    if i == 'a' or i == 'e' or i == 'i' or i == 'o' or i == 'u':
+        frase.replace('a', '')
+    
+
+
