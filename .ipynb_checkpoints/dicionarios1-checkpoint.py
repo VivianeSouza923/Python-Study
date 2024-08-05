@@ -10,9 +10,9 @@
 # criação do dicionário com suas devidas chaves e seus devidos valores
 carrinho_compras = {
     'Arroz' : 3,
-    'Feijão' : 1,
-    'Macarrão' : 7,
-    'Café' : 2
+    'Feijão' : 5,
+    'Macarrão' : 5,
+    'Café' : 5
 
 }
 
@@ -44,30 +44,6 @@ def calcular_total(valores): # função para calcular o montante das coisas
 
 calcular_total(carrinho_compras) # imprime o montante total do carrinho de compras
 
-def calcular_total(dicio): # segunda forma
-    val = 0
-    for valor in dicio.values():
-        val += valor 
-    print(val)
-
-calcular_total(carrinho_compras)
-
 def imprimir_carrinho(dicio):
-    print(f'Imprimir carrinho: {dicio}')
+    print() # CONTINUAAAAAR
 
-imprimir_carrinho(carrinho_compras)
-
-
-def inverte_dicionario(dicio):
-    dicio_invertido = dict(zip(dicio.values(), dicio.keys()))
-    print(dicio_invertido)
-
-inverte_dicionario(carrinho_compras)
-
-
-def dicionario_listaOrdemCrescente(dicio):
-    valores = dicio.values()
-    lista = list(valores)
-    print(sorted(lista))
-
-dicionario_listaOrdemCrescente(carrinho_compras)
