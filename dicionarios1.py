@@ -31,7 +31,7 @@ def remover_item(chave): # função que vai remover o item que quero (aqui só p
     return carrinho_compras # retorna o carrinho de compras atualizado
 
 remover_item('Café') # remove café
-print(carrinho_compras)
+print(carrinho_compras) 
 
 def calcular_total(valores): # função para calcular o montante das coisas 
 
