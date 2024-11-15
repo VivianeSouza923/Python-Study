@@ -20,6 +20,23 @@ while(i < 11):
     print(f'{num} + {i} = {res}')
     i += 1
 
-i = num
+i = num + 1
 print('\nTabuada de Subtração: ')
-while(i < )   
+while(i < num + 11):
+    res = i - num
+    print(f'{i} - {num} = {res}')
+    i +=1
+
+i = 1
+print('\nTabuada de Multiplicação: ')
+while(i < 11):
+    res = num * i
+    print(f'{num} * {i} = {res}')
+    i += 1
+
+i = num
+print('\nTabuada de Divisão: ')
+while(i < num * 11):
+    res = i / num
+    print(f'{i} / {num} = {int(res)}')
+    i = i + num
